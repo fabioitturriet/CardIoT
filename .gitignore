@@ -1,0 +1,39 @@
+# ---- Private keys: never commit ----
+*.pem
+*.key
+
+# ---- STM32CubeIDE build outputs ----
+# The release binary goes in firmware/bin/, which is not ignored.
+firmware/**/Debug/
+firmware/**/Release/
+.metadata/
+*.o
+*.d
+*.su
+*.cyclo
+
+# ---- TouchGFX build outputs ----
+**/TouchGFX/build/
+
+# ---- KiCad (keep this block if the hardware was designed in KiCad) ----
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+_autosave-*
+*.bak
+
+# ---- Altium Designer (keep this block if the hardware was designed in Altium) ----
+History/
+__Previews/
+Project Logs for */
+
+# ---- MATLAB ----
+*.asv
+*.autosave
+slprj/
+
+# ---- Operating systems ----
+.DS_Store
+Thumbs.db
+desktop.ini

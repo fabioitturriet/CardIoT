@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article."
+type: software
+title: "CardIoT: firmware and hardware design files"
+version: "1.0.0"
+license:
+  - CERN-OHL-S-2.0
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/fabioitturriet/CardIoT"
+keywords:
+  - 12-lead ECG
+  - FHIR
+  - edge computing
+  - point-of-care testing
+  - open hardware
+authors:
+  - family-names: "Morás"
+    given-names: "Patrick Anderson Lacerda"
+    affiliation: "Federal Institute of Education, Science and Technology Sul-Rio-Grandense (IFSul)"
+  - family-names: "Henz"
+    given-names: "Douglas"
+    affiliation: "Federal University of Technology – Paraná (UTFPR)"
+  - family-names: "Nazar"
+    given-names: "Gabriel Luca"
+    affiliation: "Federal University of Rio Grande do Sul (UFRGS)"
+  - family-names: "Machado"
+    given-names: "Juliano Costa"
+    affiliation: "Federal Institute of Education, Science and Technology Sul-Rio-Grandense (IFSul)"
+  - family-names: "Martins"
+    given-names: "André Luis Del Mestre"
+    affiliation: "Federal Institute of Education, Science and Technology Sul-Rio-Grandense (IFSul)"
+  - family-names: "Itturriet"
+    given-names: "Fabio Pires"
+    affiliation: "Federal University of Technology – Paraná (UTFPR)"
+    email: "fabioitturriet@utfpr.edu.br"

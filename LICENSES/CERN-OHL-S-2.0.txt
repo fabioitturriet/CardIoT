@@ -1,0 +1,6 @@
+The hardware design files in this repository are licensed under the
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+(SPDX identifier: CERN-OHL-S-2.0).
+
+Official text of the licence:
+https://ohwr.org/cern_ohl_s_v2.txt
