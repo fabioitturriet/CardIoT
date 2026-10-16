@@ -2,7 +2,7 @@
 
 **A gateway-less 12-lead ECG prototype that generates HL7® FHIR® resources on the device**
 
-This repository contains the firmware and the hardware design files of CardIoT, a 12-lead ECG prototype based on the STM32F769I-DISCO board and the TI ADS1198 analog front-end.
+This repository contains the firmware, the hardware design files, FHIR request examples, and the load-test script of CardIoT, a 12-lead ECG prototype based on the STM32F769I-DISCO board and the TI ADS1198 analog front-end.
 
 > [!WARNING]
 > **Research prototype, not a medical device.** CardIoT has not been assessed for electrical safety or for conformity with IEC 60601 standards. Do not use it for diagnosis or patient monitoring, and do not connect it to people outside an ethically approved study with an appropriate safety assessment.
@@ -13,6 +13,8 @@ This repository contains the firmware and the hardware design files of CardIoT, 
 |---|---|---|
 | [`firmware/`](firmware/) | STM32CubeIDE and TouchGFX project (source code) and compiled firmware | MIT |
 | [`hardware/`](hardware/) | Acquisition board (schematic, PCB layout, Gerber and drill files, and bill of materials) and 3D-printable enclosure | CERN-OHL-S-2.0 |
+| [`fhir-examples/`](fhir-examples/) | Example requests of the FASS-ECG API used by CardIoT (POST, PATCH, and PUT) | CC BY 4.0 |
+| [`evaluation/load-test/`](evaluation/load-test/) | k6 script of the concurrent FHIR integration test | MIT |
 | [`LICENSES/`](LICENSES/) | License texts | – |
 
 Each folder has its own README.
@@ -32,8 +34,8 @@ Morás PAL, Henz D, Nazar GL, Machado JC, Martins ALDM, Itturriet FP. *CardIoT: 
 | Content | License |
 |---|---|
 | Hardware design files ([`hardware/`](hardware/)) | CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0) |
-| Firmware written by the authors ([`firmware/`](firmware/)) | MIT License |
-| Documentation | Creative Commons Attribution 4.0 International (CC BY 4.0) |
+| Firmware and load-test script written by the authors ([`firmware/`](firmware/), [`evaluation/`](evaluation/)) | MIT License |
+| Documentation and FHIR examples ([`fhir-examples/`](fhir-examples/)) | Creative Commons Attribution 4.0 International (CC BY 4.0) |
 | Third-party components included in the firmware | Their original licenses, provided with each component |
 
 See [`LICENSE.md`](LICENSE.md) for details.

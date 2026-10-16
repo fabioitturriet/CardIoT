@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated article."
 type: software
-title: "CardIoT: firmware and hardware design files"
+title: "CardIoT: firmware, hardware design files, FHIR examples, and load-test script"
 version: "1.0.0"
 license:
   - CERN-OHL-S-2.0

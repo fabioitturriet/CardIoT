@@ -1,6 +1,6 @@
 {
-  "title": "CardIoT: firmware and hardware design files",
-  "description": "Firmware and hardware design files of CardIoT, a gateway-less 12-lead ECG prototype based on the STM32F769I-DISCO board and the TI ADS1198 analog front-end. Associated article: 'CardIoT: A Gateway-less Edge 12-Lead ECG Prototype with Native FHIR Interoperability for Point-of-Care Testing' (Medical & Biological Engineering & Computing, under review). Licenses: CERN-OHL-S-2.0 for the hardware design files, MIT for the firmware, and CC BY 4.0 for the documentation. Research prototype; not a medical device.",
+  "title": "CardIoT: firmware, hardware design files, FHIR examples, and load-test script",
+  "description": "Firmware, hardware design files, FHIR request examples, and the load-test script of CardIoT, a gateway-less 12-lead ECG prototype based on the STM32F769I-DISCO board and the TI ADS1198 analog front-end. Associated article: 'CardIoT: A Gateway-less Edge 12-Lead ECG Prototype with Native FHIR Interoperability for Point-of-Care Testing' (Medical & Biological Engineering & Computing, under review). Licenses: CERN-OHL-S-2.0 for the hardware design files, MIT for the firmware and the load-test script, and CC BY 4.0 for the documentation and FHIR examples. Research prototype; not a medical device.",
   "upload_type": "software",
   "access_right": "open",
   "language": "eng",

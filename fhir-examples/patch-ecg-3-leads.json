@@ -1,0 +1,17 @@
+[
+    {
+        "op": "add",
+        "path": "/component/0/valueSampledData/data",
+        "value": "2 2 2 2 2"
+    },
+    {
+        "op": "add",
+        "path": "/component/1/valueSampledData/data",
+        "value": "20 20 20 20 20"
+    },
+    {
+        "op": "add",
+        "path": "/component/2/valueSampledData/data",
+        "value": "200 200 200 200 200"
+    }
+]
