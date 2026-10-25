@@ -25,6 +25,10 @@ Each folder has its own README.
 2. **Firmware.** Flash the compiled firmware or build it from source, as described in [`firmware/README.md`](firmware/README.md).
 3. **Test.** Connect a 12-lead ECG cable to a patient simulator and start an exam.
 
+## Demonstration video
+
+[Watch the CardIoT prototype demonstration on YouTube](https://www.youtube.com/watch?v=T0yZsydzl1M)
+
 ## Associated article
 
 Morás PAL, Henz D, Nazar GL, Machado JC, Martins ALDM, Itturriet FP. *CardIoT: A Gateway-less Edge 12-Lead ECG Prototype with Native FHIR Interoperability for Point-of-Care Testing.* Medical & Biological Engineering & Computing (under review).
